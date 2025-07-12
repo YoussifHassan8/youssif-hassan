@@ -18,7 +18,7 @@ const ExperienceCardRight = ({
 }: ExperienceCardProps) => {
   return (
     <div className="relative experience-card animate-slide-in-right">
-      <div className="absolute left-1/2 -translate-x-1/2 bg-gradient-to-br from-blue-500 to-green-500 border-4 border-white/20 rounded-full p-3 z-10 shadow-lg shadow-blue-500/25 transition-all duration-300 timeline-dot animate-timeline-glow">
+      <div className="absolute left-1/2 -translate-x-1/2 bg-gradient-to-br from-blue-500 to-purple-500 border-4 border-white/20 rounded-full p-3 z-10 shadow-lg shadow-blue-500/25 transition-all duration-300 timeline-dot animate-timeline-glow">
         <div className="w-6 h-6 text-white">{logo}</div>
       </div>
 
@@ -28,7 +28,7 @@ const ExperienceCardRight = ({
         </div>
 
         <div className="space-y-4">
-          <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-blue-500/20 to-green-500/20 border border-blue-500/30 rounded-full">
+          <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30 rounded-full">
             <span className="text-xs font-medium text-blue-300">{date}</span>
           </div>
 
@@ -36,7 +36,7 @@ const ExperienceCardRight = ({
             {title}
           </h3>
 
-          <p className="text-green-400 font-semibold text-lg">{foundation}</p>
+          <p className="text-purple-400 font-semibold text-lg">{foundation}</p>
 
           <div className="text-gray-300 leading-relaxed">
             <p className="text-sm">{description}</p>

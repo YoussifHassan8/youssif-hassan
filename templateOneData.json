@@ -9,7 +9,7 @@
   "About": {
     "name": {
       "content": "Youssif Hassan",
-      "gradient": "linear-gradient(90deg, #2A7B9B, #57C785)"
+      "gradient": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)"
     },
     "imgUrl": "https://i.ibb.co/7tRNPtg4/photo-2023-04-14-02-32-30.jpg",
     "availability": true,
@@ -21,10 +21,10 @@
     ],
     "resumeButton": {
       "resumeLink": "https://drive.google.com/file/d/147hG6HTvSnQ-lPc8Oq9vWTgNNBE6eGb6/view?usp=sharing",
-      "resumeGradient": "linear-gradient(90deg, #2A7B9B, #57C785)",
-      "resumeOriginalGradient": "linear-gradient(90deg, #2A7B9B, #57C785)",
-      "resumeColor1": "#2A7B9B",
-      "resumeColor2": "#57C785"
+      "resumeGradient": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)",
+      "resumeOriginalGradient": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)",
+      "resumeColor1": "#3b82f6",
+      "resumeColor2": "#ec4899"
     },
     "links": [
       {
@@ -90,7 +90,7 @@
           },
           {
             "name": "OAuth",
-            "color": "text-green-400"
+            "color": "text-purple-400"
           },
           {
             "name": "IndexedDB",
@@ -157,7 +157,7 @@
         "repo": "https://github.com/YoussifHassan8/Snake-Game"
       }
     ],
-    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+    "title": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)"
   },
   "Skills": {
     "skills": [
@@ -237,7 +237,7 @@
         "color": "#F24E1E"
       }
     ],
-    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+    "title": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)"
   },
   "Experiences": {
     "experience": [
@@ -258,7 +258,7 @@
         "left": true
       }
     ],
-    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+    "title": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)"
   },
   "Contact": {
     "contact": {
@@ -266,6 +266,6 @@
       "phone": "+2011 4962 6908",
       "location": "Cairo, Egypt"
     },
-    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+    "title": "linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899)"
   }
 }
