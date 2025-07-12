@@ -4,7 +4,7 @@ interface AboutImageProps {
 
 const AboutImage = ({ imgURL }: AboutImageProps) => {
   return (
-    <div className="relative max-w-[320px] rounded-2xl overflow-hidden">
+    <div className="relative max-w-[280px] sm:max-w-[320px] rounded-2xl overflow-hidden">
       <img
         src={imgURL}
         alt="Profile"

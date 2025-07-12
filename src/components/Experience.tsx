@@ -46,7 +46,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="relative my-32 mx-auto max-w-7xl px-4 space-y-8 overflow-hidden"
+      className="relative my-16 sm:my-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-8 overflow-hidden"
     >
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 left-10 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl animate-pulse" />
@@ -96,10 +96,10 @@ const Experience = () => {
         </>
       ) : (
         <>
-          <div className="absolute left-8 w-1 h-full bg-gradient-to-b from-blue-500 via-purple-500 to-blue-500 shadow-lg shadow-blue-500/25" />
-          <div className="absolute left-8 w-1 h-full bg-gradient-to-b from-transparent via-white/20 to-transparent animate-pulse" />
+          <div className="absolute left-4 sm:left-8 w-1 h-full bg-gradient-to-b from-blue-500 via-purple-500 to-blue-500 shadow-lg shadow-blue-500/25" />
+          <div className="absolute left-4 sm:left-8 w-1 h-full bg-gradient-to-b from-transparent via-white/20 to-transparent animate-pulse" />
 
-          <ul className="space-y-16 ml-16">
+          <ul className="space-y-8 sm:space-y-16 ml-8 sm:ml-16">
             {data.map((item, index) => (
               <div key={index} className="relative">
                 <ExperienceCardLeft

@@ -16,7 +16,7 @@ function App() {
       <FloatingElements />
       <MouseInteraction />
 
-      <div className="relative z-10 max-w-[1300px] mx-auto px-12 min-h-screen text-white pt-[100px]">
+      <div className="relative z-10 max-w-[1300px] mx-auto px-12 min-h-screen text-white pt-[100px] overflow-x-hidden">
         <Navbar />
         {templateOneData.NavBar.about && <About />}
         {templateOneData.NavBar.projects && <Projects />}

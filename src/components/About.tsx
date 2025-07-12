@@ -21,7 +21,7 @@ const About = () => {
       });
     } else {
       leftControls.start({
-        x: -100,
+        x: -50,
         opacity: 0,
         transition: { duration: 0.3 },
       });
@@ -37,7 +37,7 @@ const About = () => {
       });
     } else {
       rightControls.start({
-        x: 100,
+        x: 50,
         opacity: 0,
         transition: { duration: 0.3 },
       });
@@ -47,22 +47,24 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-wrap justify-center gap-28 py-20 relative"
+      className="flex flex-col lg:flex-row flex-wrap justify-center items-center gap-8 sm:gap-16 lg:gap-28 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
     >
       <motion.div
         ref={leftRef}
         className="group relative w-fit h-fit p-1"
-        initial={{ x: -100, opacity: 0 }}
+        initial={{ x: -50, opacity: 0 }}
         animate={leftControls}
+        style={{ willChange: "transform" }}
       >
         <LeftSide imgURL={data.imgUrl} availability={data.availability} />
       </motion.div>
 
       <motion.div
         ref={rightRef}
-        className="space-y-6 max-w-xl"
-        initial={{ x: 100, opacity: 0 }}
+        className="space-y-4 sm:space-y-6 w-full max-w-lg lg:max-w-xl"
+        initial={{ x: 50, opacity: 0 }}
         animate={rightControls}
+        style={{ willChange: "transform" }}
       >
         <RightSide
           name={data.name}

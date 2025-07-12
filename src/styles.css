@@ -5,10 +5,12 @@ html {
   background-size: 400% 400%;
   animation: gradient-shift 20s ease infinite;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: transparent;
+  overflow-x: hidden;
 }
 @theme {
   --font-roboto: "Roboto", sans-serif;

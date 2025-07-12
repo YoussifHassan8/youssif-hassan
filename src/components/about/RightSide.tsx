@@ -69,10 +69,10 @@ const RightSide = ({
         highlights={description.highlights}
         content={description.content}
       />
-      <div className="flex items-center gap-4 mt-8">
-        <div className="relative group">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-4 mt-6 sm:mt-8">
+        <div className="relative group w-full sm:w-auto">
           <button
-            className="relative px-8 py-4 font-bold rounded-lg transition-all duration-300 group-hover:scale-105 cursor-pointer"
+            className="relative px-6 sm:px-8 py-3 sm:py-4 font-bold rounded-lg transition-all duration-300 group-hover:scale-105 cursor-pointer w-full sm:w-auto"
             style={{
               background: resumeButton.resumeGradient,
               boxShadow: "none",
@@ -89,7 +89,7 @@ const RightSide = ({
               href={resumeButton.resumeLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative flex items-center gap-2"
+              className="relative flex items-center justify-center sm:justify-start gap-2"
             >
               <span className="bg-gradient-to-r from-white to-[#d4fff1] bg-clip-text text-transparent">
                 View My Resume
@@ -99,7 +99,7 @@ const RightSide = ({
           </button>
         </div>
 
-        <ul className="flex items-center gap-4 ml-2">
+        <ul className="flex items-center gap-3 sm:gap-4 w-full sm:w-auto justify-center sm:justify-start">
           {links
             .filter(({ preview }) => preview)
             .map(({ id, link }) => {
@@ -111,8 +111,8 @@ const RightSide = ({
                 >
                   <a href={link} target="_blank" rel="noopener noreferrer">
                     <IconComponent
-                      fontSize={32}
-                      className="drop-shadow-lg transition-all duration-300 hover:scale-110"
+                      fontSize={28}
+                      className="sm:text-[32px] drop-shadow-lg transition-all duration-300 hover:scale-110"
                     />
                   </a>
                 </li>
