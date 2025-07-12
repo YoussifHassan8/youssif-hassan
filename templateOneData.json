@@ -1,0 +1,271 @@
+{
+  "NavBar": {
+    "about": true,
+    "projects": true,
+    "skills": true,
+    "experience": true,
+    "contact": true
+  },
+  "About": {
+    "name": {
+      "content": "Youssif Hassan",
+      "gradient": "linear-gradient(90deg, #2A7B9B, #57C785)"
+    },
+    "imgUrl": "https://i.ibb.co/7tRNPtg4/photo-2023-04-14-02-32-30.jpg",
+    "availability": true,
+    "tags": [
+      "UI/UX Enthusiast",
+      "Problem Solver",
+      "Frontend Developer",
+      "Software Engineer"
+    ],
+    "resumeButton": {
+      "resumeLink": "https://drive.google.com/file/d/147hG6HTvSnQ-lPc8Oq9vWTgNNBE6eGb6/view?usp=sharing",
+      "resumeGradient": "linear-gradient(90deg, #2A7B9B, #57C785)",
+      "resumeOriginalGradient": "linear-gradient(90deg, #2A7B9B, #57C785)",
+      "resumeColor1": "#2A7B9B",
+      "resumeColor2": "#57C785"
+    },
+    "links": [
+      {
+        "id": "github",
+        "link": "https://github.com/YoussifHassan8",
+        "preview": true
+      },
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/youssif-hassan-50b226247/",
+        "preview": true
+      },
+      {
+        "id": "codeforces",
+        "link": "https://codeforces.com/profile/Youssif_Hassan",
+        "preview": true
+      },
+      {
+        "id": "x",
+        "link": "#",
+        "preview": false
+      },
+      {
+        "id": "leetcode",
+        "link": "#",
+        "preview": false
+      }
+    ],
+    "description": {
+      "content": "👨‍💻 Professional Frontend Engineer with competitive programming background.\n🏆 Represented Egypt in ECPC & regional ACPC competitions. \n🌱 Always learning - Excited to explore new technologies and frameworks",
+      "highlights": [
+        {
+          "start": 19,
+          "end": 36,
+          "color": "#e11d48"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "color": "#3b82f6"
+        },
+        {
+          "start": 118,
+          "end": 122,
+          "color": "#10b981"
+        }
+      ]
+    }
+  },
+  "Projects": {
+    "projects": [
+      {
+        "title": "CategYou - YouTube Playlist Organizer",
+        "description": "Transform your YouTube experience with nested folders, smart sorting, and intuitive drag-and-drop organization for your Liked Videos playlist.",
+        "tech": [
+          {
+            "name": "React",
+            "color": "text-blue-400"
+          },
+          {
+            "name": "TailwindCSS",
+            "color": "text-pink-400"
+          },
+          {
+            "name": "OAuth",
+            "color": "text-green-400"
+          },
+          {
+            "name": "IndexedDB",
+            "color": "text-yellow-400"
+          }
+        ],
+        "imgSrc": "https://i.ibb.co/1fX8KYPH/categyou-preview.jpg",
+        "liveDemo": "https://categyou.netlify.app/",
+        "repo": "https://github.com/YoussifHassan8/CategYou"
+      },
+      {
+        "title": "DomifyJS - Lightweight Frontend Framework",
+        "description": "DomifyJS is a lightweight, flexible frontend framework built from scratch in JavaScript to understand modern framework internals.",
+        "tech": [
+          {
+            "name": "JavaScript",
+            "color": "text-yellow-400"
+          }
+        ],
+        "imgSrc": "https://i.ibb.co/JwNw3vHQ/domifyjs-preview.png",
+        "liveDemo": "",
+        "repo": "https://github.com/YoussifHassan8/DomifyJS"
+      },
+      {
+        "title": "Algorithm Visualizer",
+        "description": "Algorithm Visualizer is a web-based application designed to help users understand and learn algorithms through interactive visualizations.",
+        "tech": [
+          {
+            "name": "HTML",
+            "color": "text-orange-400"
+          },
+          {
+            "name": "CSS",
+            "color": "text-blue-400"
+          },
+          {
+            "name": "JavaScript",
+            "color": "text-yellow-400"
+          }
+        ],
+        "imgSrc": "https://i.ibb.co/pj3zkCyJ/algovisualizer-preview.jpg",
+        "liveDemo": "https://youssifhassan8.github.io/Algorithms-Visualizer/",
+        "repo": "https://github.com/YoussifHassan8/Algorithms-Visualizer"
+      },
+      {
+        "title": "Snake Game",
+        "description": "A simple Snake Game involves controlling a snake to eat food that randomly appears on the grid, which increases the snake's length.",
+        "tech": [
+          {
+            "name": "HTML",
+            "color": "text-orange-400"
+          },
+          {
+            "name": "CSS",
+            "color": "text-blue-400"
+          },
+          {
+            "name": "JavaScript",
+            "color": "text-yellow-400"
+          }
+        ],
+        "imgSrc": "https://i.ibb.co/jPZRPk23/snakegame-preview.jpg",
+        "liveDemo": "https://youssifhassan8.github.io/Snake-Game/",
+        "repo": "https://github.com/YoussifHassan8/Snake-Game"
+      }
+    ],
+    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+  },
+  "Skills": {
+    "skills": [
+      {
+        "icon": "TbBrandCpp",
+        "name": "C++",
+        "color": "#00599C"
+      },
+      {
+        "icon": "SiPython",
+        "name": "Python",
+        "color": "#3776AB"
+      },
+      {
+        "icon": "SiJavascript",
+        "name": "JavaScript",
+        "color": "#F7DF1E"
+      },
+      {
+        "icon": "SiTypescript",
+        "name": "TypeScript",
+        "color": "#3178C6"
+      },
+      {
+        "icon": "SiHtml5",
+        "name": "HTML5",
+        "color": "#E34F26"
+      },
+      {
+        "icon": "SiCss3",
+        "name": "CSS3",
+        "color": "#1572B6"
+      },
+      {
+        "icon": "SiTailwindcss",
+        "name": "Tailwind",
+        "color": "#06B6D4"
+      },
+      {
+        "icon": "SiBootstrap",
+        "name": "Bootstrap",
+        "color": "#7952B3"
+      },
+      {
+        "icon": "SiReact",
+        "name": "React",
+        "color": "#61DAFB"
+      },
+      {
+        "icon": "SiNextdotjs",
+        "name": "Next.js",
+        "color": "#FFFFFF"
+      },
+      {
+        "icon": "SiRedux",
+        "name": "Redux",
+        "color": "#764ABC"
+      },
+      {
+        "icon": "SiGithub",
+        "name": "GitHub",
+        "color": "#FFFFFF"
+      },
+      {
+        "icon": "SiGit",
+        "name": "Git",
+        "color": "#F05032"
+      },
+      {
+        "icon": "SiSass",
+        "name": "Sass",
+        "color": "#CC6699"
+      },
+      {
+        "icon": "SiFigma",
+        "name": "Figma",
+        "color": "#F24E1E"
+      }
+    ],
+    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+  },
+  "Experiences": {
+    "experience": [
+      {
+        "title": "Bachelor's degree | Computer Science",
+        "company": "El Shorouk Academy",
+        "period": "October 2021 - October 2025",
+        "description": "I studied computer and systems engineering, which provided me with a solid foundation in programming, algorithms, data structures, and software engineering. I also developed a strong understanding of computer architecture, operating systems, and computer networks.",
+        "icon": "GiGraduateCap",
+        "left": false
+      },
+      {
+        "title": "AI Trainer",
+        "company": "Scale AI",
+        "period": "June 2023 – May 2024",
+        "description": "Worked on improving a language model for solving Codeforces problems. For each coding problem, I write the solution of the problem, test cases to confirm that my code works fine, a summary of the problem, and an explanation of how my code solves the problem.",
+        "icon": "FaBriefcase",
+        "left": true
+      }
+    ],
+    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+  },
+  "Contact": {
+    "contact": {
+      "email": "youssifh383@gmail.com",
+      "phone": "+2011 4962 6908",
+      "location": "Cairo, Egypt"
+    },
+    "title": "linear-gradient(90deg, #10b981, #3b82f6)"
+  }
+}
