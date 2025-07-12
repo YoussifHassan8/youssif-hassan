@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import LeftSide from "./about/LeftSide";
 import RightSide from "./about/RightSide";
-import templateOneData from "../../templateOneData.json";
+import templateOneData from "../../data.json";
 
 const About = () => {
   const data = templateOneData.About;

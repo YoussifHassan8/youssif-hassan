@@ -1,7 +1,7 @@
 import SkillCard from "./ui/SkillCard";
 import TitleTwo from "./ui/TitleTwo";
 import SkillsDescription from "./skills/SkillsDescription";
-import templateData from "../../templateOneData.json";
+import templateData from "../../data.json";
 
 const Skills = () => {
   const skills = templateData.Skills.skills;

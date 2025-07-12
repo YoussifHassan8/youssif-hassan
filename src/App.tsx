@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import AnimatedBackground from "./components/ui/AnimatedBackground";
 import FloatingElements from "./components/ui/FloatingElements";
 import MouseInteraction from "./components/ui/MouseInteraction";
-import templateOneData from "../templateOneData.json";
+import templateOneData from "../data.json";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import templateData from "../../templateOneData.json";
+import templateData from "../../data.json";
 
 const Navbar = () => {
   const templateOneData = templateData;

@@ -9,7 +9,7 @@ import {
   FaBriefcase,
 } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
-import templateData from "../../templateOneData.json";
+import templateData from "../../data.json";
 
 const Experience = () => {
   const data = templateData.Experiences.experience;

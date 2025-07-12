@@ -77,8 +77,8 @@
   "Projects": {
     "projects": [
       {
-        "title": "CategYou - YouTube Playlist Organizer",
-        "description": "Transform your YouTube experience with nested folders, smart sorting, and intuitive drag-and-drop organization for your Liked Videos playlist.",
+        "title": "Selfolio",
+        "description": "A web application that enables users to create their personal portfolio without writing any code",
         "tech": [
           {
             "name": "React",
@@ -89,17 +89,13 @@
             "color": "text-pink-400"
           },
           {
-            "name": "OAuth",
-            "color": "text-purple-400"
-          },
-          {
-            "name": "IndexedDB",
-            "color": "text-yellow-400"
+            "name": "TypeScript",
+            "color": "text-blue-400"
           }
         ],
-        "imgSrc": "https://i.ibb.co/1fX8KYPH/categyou-preview.jpg",
-        "liveDemo": "https://categyou.netlify.app/",
-        "repo": "https://github.com/YoussifHassan8/CategYou"
+        "imgSrc": "https://i.ibb.co/27vdgzVf/brave-screenshot-selfolio8-netlify-app.png",
+        "liveDemo": "https://selfolio8.netlify.app/",
+        "repo": "https://github.com/YoussifHassan8/selfolio"
       },
       {
         "title": "DomifyJS - Lightweight Frontend Framework",

@@ -3,7 +3,7 @@ import TitleTwo from "./ui/TitleTwo";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import ContactCard from "./contact/ContactCard";
-import templateData from "../../templateOneData.json";
+import templateData from "../../data.json";
 
 const Contact = () => {
   const data = templateData.Contact.contact;

@@ -1,6 +1,6 @@
 import ProjectCard from "./ui/ProjectCard";
 import TitleTwo from "./ui/TitleTwo";
-import templateData from "../../templateOneData.json";
+import templateData from "../../data.json";
 
 const Projects = () => {
   const projects = templateData.Projects.projects;
